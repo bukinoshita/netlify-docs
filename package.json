@@ -1,16 +1,23 @@
 {
   "name": "netlify-docs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Deploy docs with a single command using Netlify",
   "main": "bin/now-docs.js",
   "repository": "bukinoshita/netlify-docs",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
-  "files": ["lib", "bin"],
+  "files": [
+    "lib",
+    "bin"
+  ],
   "bin": {
     "netlify-docs": "bin/netlify-docs.js"
   },
-  "keywords": ["docs", "documentation", "netlify"],
+  "keywords": [
+    "docs",
+    "documentation",
+    "netlify"
+  ],
   "scripts": {
     "test": "xo"
   },
@@ -43,8 +50,12 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"],
-    "ignores": ["lib/components/*.js"]
+    "extends": [
+      "prettier"
+    ],
+    "ignores": [
+      "lib/components/*.js"
+    ]
   },
   "netlifyDocs": {
     "name": "netlify-docs"
