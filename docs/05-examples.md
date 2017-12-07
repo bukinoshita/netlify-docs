@@ -1,3 +1,3 @@
 ## Examples
 
-* [now-docs](https://now-docs.now.sh/)
+* [netlify-docs](https://netlify-docs.netlify.com/)

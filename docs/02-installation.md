@@ -1,7 +1,7 @@
 ## Installation
 
-Install the `now-docs` with npm:
+Install the `netlify-docs` with npm:
 
 ```
-$ npm install -g now-docs
+$ npm install -g netlify-docs
 ```

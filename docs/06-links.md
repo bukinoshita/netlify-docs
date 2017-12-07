@@ -1,3 +1,3 @@
 ## Links
 
-* [Github](https://github.com/bukinoshita/now-docs)
+* [Github](https://github.com/bukinoshita/netlify-docs)

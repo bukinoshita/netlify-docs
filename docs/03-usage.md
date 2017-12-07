@@ -17,5 +17,5 @@ this is an example
 After writing all the documentation, run:
 
 ```
-$ now-docs
+$ netlify-docs
 ```
