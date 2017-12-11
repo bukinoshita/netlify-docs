@@ -1,4 +1,4 @@
-## About
+## Introduction
 
 GH polls is a quick and effective way to request feedback from community members
 in GitHub issues.
