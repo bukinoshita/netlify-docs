@@ -54,6 +54,7 @@ const run = async () => {
   const theme = 'apex'
   const state = new Map()
   const updateOutput = () => logUpdate(getOutput(state))
+  let deployment
 
   if (!hasDocs) {
     return shoutError("Couldn't find `docs` folder.")
@@ -111,19 +112,22 @@ const run = async () => {
         updateOutput()
       })
     )
-    .then(() => deploy())
+    .then(() => (deployment = deploy())) // eslint-disable-line no-return-assign
     .then(
       pTap(() => {
         state.set('deploying', STATE_SUCCESS)
         updateOutput()
       })
     )
-    .then(() => {
+    .then(async () => {
       const elapsed_ = ms(new Date() - start_)
-
+      const { name, ssl_url } = await deployment // eslint-disable-line camelcase
       logUpdate.done()
       console.log('\n')
-      shoutSuccess(`\`netlify-docs\` deployed! ${grey('[' + elapsed_ + ']')}`)
+
+      shoutSuccess(
+        `\`${name}\` deployed at ${ssl_url}! ${grey('[' + elapsed_ + ']')}` // eslint-disable-line camelcase
+      )
     })
     .catch(err => {
       state.set('deploying', STATE_ERROR)
