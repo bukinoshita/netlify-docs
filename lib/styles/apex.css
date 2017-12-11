@@ -30,6 +30,12 @@ code {
   margin-right: 2px;
 }
 
+blockquote {
+  border-left: 3px solid #212529;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
