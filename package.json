@@ -7,7 +7,7 @@
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
   "files": [
-    "lib",
+    "lib/**",
     "bin"
   ],
   "bin": {
