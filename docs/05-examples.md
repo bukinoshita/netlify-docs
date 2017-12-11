@@ -1,5 +1,5 @@
 ## Examples
 
-* [netlify-docs](https://netlify-docs.netlify.com/)
-* [gh-polls](https://gh-polls-docs.netlify.com/)
-* [now-api](https://now-docs.netlify.com/)
+* [netlify-docs](https://github.com/bukinoshita/netlify-docs/tree/master/docs)
+* [gh-polls](https://github.com/bukinoshita/netlify-docs/tree/master/examples/gh-polls)
+* [now-api](https://github.com/bukinoshita/netlify-docs/tree/master/examples/now)

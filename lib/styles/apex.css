@@ -36,6 +36,12 @@ blockquote {
   padding-left: 1em;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -150,6 +156,7 @@ blockquote {
 
 .page h2 {
   margin-top: 0;
+  margin-bottom: 40px;
   font-size: 1.5rem;
 }
 
