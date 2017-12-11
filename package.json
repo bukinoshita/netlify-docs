@@ -1,6 +1,6 @@
 {
   "name": "netlify-docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Deploy docs with a single command using Netlify",
   "main": "bin/now-docs.js",
   "repository": "bukinoshita/netlify-docs",
