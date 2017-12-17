@@ -32,7 +32,7 @@ installed._
 
 ## Related
 
-* [now-docs](https://github.com/bukinoshita/now-docs/blob/master/readme.md) —
+* [now-docs](https://github.com/bukinoshita/now-docs) —
   Deploy docs with a single command using now
 
 ## License
