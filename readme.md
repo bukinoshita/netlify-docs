@@ -35,6 +35,10 @@ installed._
 * [now-docs](https://github.com/bukinoshita/now-docs) —
   Deploy docs with a single command using now
 
+## Comparing `netlify-docs` with `now-docs`
+
+Check comparison [here](https://latency.apex.sh/?url=https%3A%2F%2Fnow-docs.now.sh%2F&compare=http%3A%2F%2Fnetlify-docs.netlify.com%2F).
+
 ## License
 
 MIT © [Bu Kinoshita](https://bukinoshita.io)
